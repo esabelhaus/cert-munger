@@ -1,0 +1,37 @@
+{
+  "name": "cert-munger",
+  "version": "0.0.1",
+  "description": "This module takes string input for X509 certificates and attempts to reformat them into a valid readable certificate",
+  "main": "lib/cert-munger",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-sabelhaus/cert-munger.git"
+  },
+  "keywords": [
+    "X509",
+    "certificates",
+    "cert",
+    "munger"
+  ],
+  "author": "Eric Sabelhaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-sabelhaus/cert-munger/issues"
+  },
+  "homepage": "https://github.com/e-sabelhaus/cert-munger",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-passport-strategy": "^0.2.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.12.4",
+    "grunt-plato": "^1.2.1",
+    "mocha": "^2.1.0"
+  }
+
+}
