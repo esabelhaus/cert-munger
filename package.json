@@ -1,6 +1,6 @@
 {
   "name": "cert-munger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This module takes string input for X509 certificates and attempts to parse and space the lines properly. It then returns the X509 attributes in JSON format",
   "main": "lib/cert-munger",
   "scripts": {

@@ -37,4 +37,4 @@ I use a combination of Mocha and Chai in conjunction with Grunt. I also use ista
 `istanbul cover _mocha test/test-cert-munger.js`
 
 # issues
-https://github.com/e-sabelhaus/prestige/issues
+https://github.com/e-sabelhaus/cert-munger/issues
