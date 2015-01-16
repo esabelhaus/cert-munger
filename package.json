@@ -23,15 +23,17 @@
   },
   "homepage": "https://github.com/e-sabelhaus/cert-munger",
   "dependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "string": "^3.0.0",
+    "tmp": "0.0.24",
+    "underscore": "^1.7.0",
+    "x.509": "^0.1.4"
   },
   "devDependencies": {
     "chai": "^1.10.0",
-    "chai-passport-strategy": "^0.2.0",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-mocha-test": "^0.12.4",
     "grunt-plato": "^1.2.1",
     "mocha": "^2.1.0"
   }
-
 }
