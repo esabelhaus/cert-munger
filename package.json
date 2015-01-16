@@ -1,7 +1,7 @@
 {
   "name": "cert-munger",
-  "version": "0.0.1",
-  "description": "This module takes string input for X509 certificates and attempts to reformat them into a valid readable certificate",
+  "version": "0.1.0",
+  "description": "This module takes string input for X509 certificates and attempts to parse and space the lines properly. It then returns the X509 attributes in JSON format",
   "main": "lib/cert-munger",
   "scripts": {
     "test": "grunt"
@@ -25,9 +25,8 @@
   "dependencies": {
     "grunt": "^0.4.5",
     "string": "^3.0.0",
-    "tmp": "0.0.24",
     "underscore": "^1.7.0",
-    "x.509": "^0.1.4"
+    "x509": "^0.1.4"
   },
   "devDependencies": {
     "chai": "^1.10.0",
