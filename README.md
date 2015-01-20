@@ -1,4 +1,7 @@
 ##X.509 Certificate Munger
+
+[![Build Status](https://travis-ci.org/e-sabelhaus/cert-munger.svg?branch=master)](https://travis-ci.org/e-sabelhaus/cert-munger) [![Code Climate](https://codeclimate.com/github/e-sabelhaus/cert-munger/badges/gpa.svg)](https://codeclimate.com/github/e-sabelhaus/cert-munger)
+
 ===========
 This module takes string input for X509 certificates and attempts to parse and space the lines properly. It then returns the X509 attributes in JSON format
 
