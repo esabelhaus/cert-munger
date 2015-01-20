@@ -8,8 +8,8 @@ var assert = require('assert'),
       one_line = fs.readFileSync('test/certs/one_line.crt', 'utf8'),
       passenger = fs.readFileSync('test/certs/passenger.crt', 'utf8'),
       malformed = fs.readFileSync('test/certs/malformed.crt', 'utf8'),
-      user_crt = fs.readFileSync('test/certs/node_user.crt', 'utf8');
-      tmp_crt = user_crt.toString('binary');
+      user_crt = fs.readFileSync('test/certs/node_user.crt', 'utf8'),
+      tmp_crt = user_crt.toString('binary'),
       non_string_crt = new Buffer(tmp_crt, "binary");
 
 
